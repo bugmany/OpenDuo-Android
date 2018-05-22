@@ -28,23 +28,23 @@ This sample app allows you to:
 - Android Studio 2.0 or later
 - Real Android devices, for example Nexus 5X
 
-NOTE: Agora recommends using a real device instead of an emulator. 
+NOTE: Agora recommends using a real device instead of an emulator.
 
 ## Running the App
-1. Create a developer account at [Agora.io](https://dashboard.agora.io/signin/), and obtain an App ID. 
-   
+1. Create a developer account at [Agora.io](https://dashboard.agora.io/signin/), and obtain an App ID.
+
    NOTE: For more information, see [Obtaining an App ID](https://docs.agora.io/en/2.2/addons/Signaling/Agora%20Basics/key_signaling?platform=All%20Platforms).
-   
+
 2. Fill in your App ID in the **app/src/main/res/values/strings.xml**.
 
- 
+
         <string name="agora_app_id"><#YOUR APP ID#></string>
 
-3. Download the Agora Video SDK and the Agora Signaling SDK from [Agora.io SDK](https://www.agora.io/en/download/). 
+3. Download the Agora Video SDK and the Agora Signaling SDK from [Agora.io SDK](https://www.agora.io/en/download/).
 
    NOTE: This project is built upon the **Agora Video SDK 2.1.0** and the **Agora Signaling SDK 1.2.1**.
 
-4. Unzip the downloaded SDK package and: 
+4. Unzip the downloaded SDK package and:
 
   - copy ***.jar** under **/libs** to **app/libs**
   - copy **arm64-v8a**/**x86**/**armeabi-v7a** under **libs** to **app/src/main/jniLibs**.
@@ -64,4 +64,4 @@ NOTE: Agora recommends using a real device instead of an emulator.
 
 ## License
 
-The MIT License (MIT). 
+The MIT License (MIT).
