@@ -37,7 +37,6 @@ public class NumberCallActivity extends AppCompatActivity {
     private AgoraAPIOnlySignal mAgoraAPI;
     private final int REQUEST_CODE = 0x01;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
